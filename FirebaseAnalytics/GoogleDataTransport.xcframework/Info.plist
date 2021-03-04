@@ -22,11 +22,12 @@
 		</dict>
 		<dict>
 			<key>LibraryIdentifier</key>
-			<string>macos-x86_64</string>
+			<string>macos-arm64_x86_64</string>
 			<key>LibraryPath</key>
 			<string>GoogleDataTransport.framework</string>
 			<key>SupportedArchitectures</key>
 			<array>
+				<string>arm64</string>
 				<string>x86_64</string>
 			</array>
 			<key>SupportedPlatform</key>
@@ -61,20 +62,6 @@
 		</dict>
 		<dict>
 			<key>LibraryIdentifier</key>
-			<string>ios-x86_64-maccatalyst</string>
-			<key>LibraryPath</key>
-			<string>GoogleDataTransport.framework</string>
-			<key>SupportedArchitectures</key>
-			<array>
-				<string>x86_64</string>
-			</array>
-			<key>SupportedPlatform</key>
-			<string>ios</string>
-			<key>SupportedPlatformVariant</key>
-			<string>maccatalyst</string>
-		</dict>
-		<dict>
-			<key>LibraryIdentifier</key>
 			<string>ios-arm64_armv7</string>
 			<key>LibraryPath</key>
 			<string>GoogleDataTransport.framework</string>
@@ -85,6 +72,21 @@
 			</array>
 			<key>SupportedPlatform</key>
 			<string>ios</string>
+		</dict>
+		<dict>
+			<key>LibraryIdentifier</key>
+			<string>ios-arm64_x86_64-maccatalyst</string>
+			<key>LibraryPath</key>
+			<string>GoogleDataTransport.framework</string>
+			<key>SupportedArchitectures</key>
+			<array>
+				<string>arm64</string>
+				<string>x86_64</string>
+			</array>
+			<key>SupportedPlatform</key>
+			<string>ios</string>
+			<key>SupportedPlatformVariant</key>
+			<string>maccatalyst</string>
 		</dict>
 	</array>
 	<key>CFBundlePackageType</key>
